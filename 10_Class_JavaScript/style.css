@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ddd;
+}
+
+#page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+#title{
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+
+iframe{
+    width: 700px;
+    height: 400px;
+    
+}
+
+#thumb-box{
+     display: flex;
+     gap: 10px;
+     margin-top: 5px;
+}
+#thumb-box img{
+    border: 2px solid white;
+}
+
+#thumb-box img:hover{
+    transform: scale(1.2);
+    transition:0.3s;
+}
